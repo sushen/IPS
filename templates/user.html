@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>user</title>
+    </head>
+    <body>
+
+        <h1>{{userInfo.email}}</h1>
+
+
+        {% for i in address %}
+
+        <div>
+
+        <p>{{i.firstname}}</p>
+
+        <p>{{i.lastname}}</p>
+
+        <p> {{i.phone}} </p>
+
+        </div>
+
+
+        {% endfor %}
+    </body>
+</html>
